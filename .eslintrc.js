@@ -3,21 +3,22 @@ module.exports = {
     browser: true,
     commonjs: true,
     es2020: true,
-    mocha: true
+    mocha: true,
   },
   extends: [
-    'plugin:node/recommended',
-    'eslint:recommended',
-    'standard'
+    "plugin:node/recommended",
+    "eslint:recommended",
+    "standard",
+    "prettier",
   ],
   parserOptions: {
-    ecmaVersion: 11
+    ecmaVersion: 11,
   },
   rules: {
-    'require-jsdoc': 'error',
-    'no-warning-comments': 'warn',
-    'prefer-template': 'error',
-    'object-shorthand': 'error',
-    'no-var': 'error'
-  }
-}
+    "require-jsdoc": "error",
+    "no-warning-comments": "warn",
+    "prefer-template": "error",
+    "object-shorthand": "error",
+    "no-var": "error",
+  },
+};

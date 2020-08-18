@@ -1,0 +1,4 @@
+SELECT
+  *
+FROM
+  TABLE_A

@@ -1,0 +1,468 @@
+{
+  "type": "RootContext",
+  "children": [
+    {
+      "type": "StmtContext",
+      "children": [
+        {
+          "type": "Select_stmtContext",
+          "children": [
+            {
+              "type": "TerminalNodeImpl",
+              "children": [],
+              "invokingState": 3890,
+              "text": "SELECT"
+            },
+            {
+              "type": "Selector_clauseContext",
+              "children": [
+                {
+                  "type": "Column_listContext",
+                  "children": [
+                    {
+                      "type": "TerminalNodeImpl",
+                      "children": [],
+                      "invokingState": 4386,
+                      "text": "*"
+                    }
+                  ],
+                  "ruleIndex": 198,
+                  "start": 9,
+                  "stop": 9,
+                  "invokingState": 4308
+                }
+              ],
+              "ruleIndex": 191,
+              "start": 9,
+              "stop": 9,
+              "invokingState": 3891
+            },
+            {
+              "type": "From_clauseContext",
+              "children": [
+                {
+                  "type": "TerminalNodeImpl",
+                  "children": [],
+                  "invokingState": 4310,
+                  "text": "FROM"
+                },
+                {
+                  "type": "From_itemContext",
+                  "children": [
+                    {
+                      "type": "Table_name_Context",
+                      "children": [
+                        {
+                          "type": "IdentifierContext",
+                          "children": [
+                            {
+                              "type": "TerminalNodeImpl",
+                              "children": [],
+                              "invokingState": 5603,
+                              "text": "TABLE_A"
+                            }
+                          ],
+                          "ruleIndex": 256,
+                          "start": 16,
+                          "stop": 22,
+                          "invokingState": 5126
+                        }
+                      ],
+                      "ruleIndex": 234,
+                      "start": 16,
+                      "stop": 22,
+                      "invokingState": 5212
+                    }
+                  ],
+                  "ruleIndex": 241,
+                  "start": 16,
+                  "stop": 22,
+                  "invokingState": 4311
+                },
+                {
+                  "type": "TerminalNodeImpl",
+                  "children": [],
+                  "invokingState": 4312,
+                  "text": ","
+                },
+                {
+                  "type": "From_itemContext",
+                  "children": [
+                    {
+                      "type": "Table_name_Context",
+                      "children": [
+                        {
+                          "type": "IdentifierContext",
+                          "children": [
+                            {
+                              "type": "TerminalNodeImpl",
+                              "children": [],
+                              "invokingState": 5603,
+                              "text": "TABLE_B"
+                            }
+                          ],
+                          "ruleIndex": 256,
+                          "start": 25,
+                          "stop": 31,
+                          "invokingState": 5126
+                        }
+                      ],
+                      "ruleIndex": 234,
+                      "start": 25,
+                      "stop": 31,
+                      "invokingState": 5212
+                    }
+                  ],
+                  "ruleIndex": 241,
+                  "start": 25,
+                  "stop": 31,
+                  "invokingState": 4313
+                }
+              ],
+              "ruleIndex": 192,
+              "start": 11,
+              "stop": 31,
+              "invokingState": 3892
+            }
+          ],
+          "ruleIndex": 172,
+          "start": 0,
+          "stop": 31,
+          "invokingState": 582
+        }
+      ],
+      "ruleIndex": 1,
+      "start": 0,
+      "stop": 31,
+      "invokingState": 530
+    },
+    {
+      "type": "TerminalNodeImpl",
+      "children": [],
+      "invokingState": 531,
+      "text": ";"
+    },
+    {
+      "type": "StmtContext",
+      "children": [
+        {
+          "type": "Select_stmtContext",
+          "children": [
+            {
+              "type": "TerminalNodeImpl",
+              "children": [],
+              "invokingState": 3890,
+              "text": "SELECT"
+            },
+            {
+              "type": "Selector_clauseContext",
+              "children": [
+                {
+                  "type": "Column_listContext",
+                  "children": [
+                    {
+                      "type": "ExprContext",
+                      "children": [
+                        {
+                          "type": "IdentifierContext",
+                          "children": [
+                            {
+                              "type": "TerminalNodeImpl",
+                              "children": [],
+                              "invokingState": 5603,
+                              "text": "COL_A"
+                            }
+                          ],
+                          "ruleIndex": 256,
+                          "start": 44,
+                          "stop": 48,
+                          "invokingState": 4635
+                        }
+                      ],
+                      "ruleIndex": 216,
+                      "start": 44,
+                      "stop": 48,
+                      "invokingState": 4379
+                    },
+                    {
+                      "type": "TerminalNodeImpl",
+                      "children": [],
+                      "invokingState": 4389,
+                      "text": ","
+                    },
+                    {
+                      "type": "ExprContext",
+                      "children": [
+                        {
+                          "type": "IdentifierContext",
+                          "children": [
+                            {
+                              "type": "TerminalNodeImpl",
+                              "children": [],
+                              "invokingState": 5603,
+                              "text": "COL_B"
+                            }
+                          ],
+                          "ruleIndex": 256,
+                          "start": 67,
+                          "stop": 71,
+                          "invokingState": 4635
+                        }
+                      ],
+                      "ruleIndex": 216,
+                      "start": 67,
+                      "stop": 71,
+                      "invokingState": 4390
+                    }
+                  ],
+                  "ruleIndex": 198,
+                  "start": 44,
+                  "stop": 71,
+                  "invokingState": 4308
+                }
+              ],
+              "ruleIndex": 191,
+              "start": 44,
+              "stop": 71,
+              "invokingState": 3891
+            },
+            {
+              "type": "From_clauseContext",
+              "children": [
+                {
+                  "type": "TerminalNodeImpl",
+                  "children": [],
+                  "invokingState": 4310,
+                  "text": "FROM"
+                },
+                {
+                  "type": "From_itemContext",
+                  "children": [
+                    {
+                      "type": "Table_name_Context",
+                      "children": [
+                        {
+                          "type": "IdentifierContext",
+                          "children": [
+                            {
+                              "type": "TerminalNodeImpl",
+                              "children": [],
+                              "invokingState": 5603,
+                              "text": "TABLE_A"
+                            }
+                          ],
+                          "ruleIndex": 256,
+                          "start": 78,
+                          "stop": 84,
+                          "invokingState": 5126
+                        }
+                      ],
+                      "ruleIndex": 234,
+                      "start": 78,
+                      "stop": 84,
+                      "invokingState": 5212
+                    }
+                  ],
+                  "ruleIndex": 241,
+                  "start": 78,
+                  "stop": 84,
+                  "invokingState": 4311
+                }
+              ],
+              "ruleIndex": 192,
+              "start": 73,
+              "stop": 84,
+              "invokingState": 3892
+            }
+          ],
+          "ruleIndex": 172,
+          "start": 35,
+          "stop": 84,
+          "invokingState": 582
+        }
+      ],
+      "ruleIndex": 1,
+      "start": 35,
+      "stop": 84,
+      "invokingState": 532
+    },
+    {
+      "type": "TerminalNodeImpl",
+      "children": [],
+      "invokingState": 537,
+      "text": ";"
+    },
+    {
+      "type": "TerminalNodeImpl",
+      "children": [],
+      "invokingState": 541,
+      "text": "<EOF>"
+    }
+  ],
+  "ruleIndex": 0,
+  "start": 0,
+  "stop": 85,
+  "invokingState": -1,
+  "tokens": [
+    {
+      "text": "SELECT",
+      "type": 510,
+      "channel": 0,
+      "start": 0,
+      "stop": 5,
+      "tokenIndex": 0,
+      "line": 1,
+      "column": 0
+    },
+    {
+      "text": "*",
+      "type": 765,
+      "channel": 0,
+      "start": 9,
+      "stop": 9,
+      "tokenIndex": 1,
+      "line": 2,
+      "column": 2
+    },
+    {
+      "text": "FROM",
+      "type": 236,
+      "channel": 0,
+      "start": 11,
+      "stop": 14,
+      "tokenIndex": 2,
+      "line": 3,
+      "column": 0
+    },
+    {
+      "text": "TABLE_A",
+      "type": 778,
+      "channel": 0,
+      "start": 16,
+      "stop": 22,
+      "tokenIndex": 3,
+      "line": 3,
+      "column": 5
+    },
+    {
+      "text": ",",
+      "type": 760,
+      "channel": 0,
+      "start": 23,
+      "stop": 23,
+      "tokenIndex": 4,
+      "line": 3,
+      "column": 12
+    },
+    {
+      "text": "TABLE_B",
+      "type": 778,
+      "channel": 0,
+      "start": 25,
+      "stop": 31,
+      "tokenIndex": 5,
+      "line": 3,
+      "column": 14
+    },
+    {
+      "text": ";",
+      "type": 834,
+      "channel": 0,
+      "start": 32,
+      "stop": 32,
+      "tokenIndex": 6,
+      "line": 3,
+      "column": 21
+    },
+    {
+      "text": "SELECT",
+      "type": 510,
+      "channel": 0,
+      "start": 35,
+      "stop": 40,
+      "tokenIndex": 7,
+      "line": 5,
+      "column": 0
+    },
+    {
+      "text": "COL_A",
+      "type": 778,
+      "channel": 0,
+      "start": 44,
+      "stop": 48,
+      "tokenIndex": 8,
+      "line": 6,
+      "column": 2
+    },
+    {
+      "text": ",",
+      "type": 760,
+      "channel": 0,
+      "start": 49,
+      "stop": 49,
+      "tokenIndex": 9,
+      "line": 6,
+      "column": 7
+    },
+    {
+      "text": "/* comment */",
+      "type": 2,
+      "channel": 1,
+      "start": 51,
+      "stop": 63,
+      "tokenIndex": 10,
+      "line": 6,
+      "column": 9
+    },
+    {
+      "text": "COL_B",
+      "type": 778,
+      "channel": 0,
+      "start": 67,
+      "stop": 71,
+      "tokenIndex": 11,
+      "line": 7,
+      "column": 2
+    },
+    {
+      "text": "FROM",
+      "type": 236,
+      "channel": 0,
+      "start": 73,
+      "stop": 76,
+      "tokenIndex": 12,
+      "line": 8,
+      "column": 0
+    },
+    {
+      "text": "TABLE_A",
+      "type": 778,
+      "channel": 0,
+      "start": 78,
+      "stop": 84,
+      "tokenIndex": 13,
+      "line": 8,
+      "column": 5
+    },
+    {
+      "text": ";",
+      "type": 834,
+      "channel": 0,
+      "start": 85,
+      "stop": 85,
+      "tokenIndex": 14,
+      "line": 8,
+      "column": 12
+    },
+    {
+      "text": "<EOF>",
+      "type": -1,
+      "channel": 0,
+      "start": 88,
+      "stop": 87,
+      "tokenIndex": 15,
+      "line": 10,
+      "column": 0
+    }
+  ]
+}

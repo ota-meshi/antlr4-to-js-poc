@@ -1,0 +1,163 @@
+{
+  "type": "RootContext",
+  "children": [
+    {
+      "type": "StmtContext",
+      "children": [
+        {
+          "type": "Select_stmtContext",
+          "children": [
+            {
+              "type": "TerminalNodeImpl",
+              "children": [],
+              "invokingState": 3890,
+              "text": "SELECT"
+            },
+            {
+              "type": "Selector_clauseContext",
+              "children": [
+                {
+                  "type": "Column_listContext",
+                  "children": [
+                    {
+                      "type": "TerminalNodeImpl",
+                      "children": [],
+                      "invokingState": 4386,
+                      "text": "*"
+                    }
+                  ],
+                  "ruleIndex": 198,
+                  "start": 9,
+                  "stop": 9,
+                  "invokingState": 4308
+                }
+              ],
+              "ruleIndex": 191,
+              "start": 9,
+              "stop": 9,
+              "invokingState": 3891
+            },
+            {
+              "type": "From_clauseContext",
+              "children": [
+                {
+                  "type": "TerminalNodeImpl",
+                  "children": [],
+                  "invokingState": 4310,
+                  "text": "FROM"
+                },
+                {
+                  "type": "From_itemContext",
+                  "children": [
+                    {
+                      "type": "Table_name_Context",
+                      "children": [
+                        {
+                          "type": "IdentifierContext",
+                          "children": [
+                            {
+                              "type": "TerminalNodeImpl",
+                              "children": [],
+                              "invokingState": 5603,
+                              "text": "TABLE_A"
+                            }
+                          ],
+                          "ruleIndex": 256,
+                          "start": 16,
+                          "stop": 22,
+                          "invokingState": 5126
+                        }
+                      ],
+                      "ruleIndex": 234,
+                      "start": 16,
+                      "stop": 22,
+                      "invokingState": 5212
+                    }
+                  ],
+                  "ruleIndex": 241,
+                  "start": 16,
+                  "stop": 22,
+                  "invokingState": 4311
+                }
+              ],
+              "ruleIndex": 192,
+              "start": 11,
+              "stop": 22,
+              "invokingState": 3892
+            }
+          ],
+          "ruleIndex": 172,
+          "start": 0,
+          "stop": 22,
+          "invokingState": 582
+        }
+      ],
+      "ruleIndex": 1,
+      "start": 0,
+      "stop": 22,
+      "invokingState": 530
+    },
+    {
+      "type": "TerminalNodeImpl",
+      "children": [],
+      "invokingState": 541,
+      "text": "<EOF>"
+    }
+  ],
+  "ruleIndex": 0,
+  "start": 0,
+  "stop": 22,
+  "invokingState": -1,
+  "tokens": [
+    {
+      "text": "SELECT",
+      "type": 510,
+      "channel": 0,
+      "start": 0,
+      "stop": 5,
+      "tokenIndex": 0,
+      "line": 1,
+      "column": 0
+    },
+    {
+      "text": "*",
+      "type": 765,
+      "channel": 0,
+      "start": 9,
+      "stop": 9,
+      "tokenIndex": 1,
+      "line": 2,
+      "column": 2
+    },
+    {
+      "text": "FROM",
+      "type": 236,
+      "channel": 0,
+      "start": 11,
+      "stop": 14,
+      "tokenIndex": 2,
+      "line": 3,
+      "column": 0
+    },
+    {
+      "text": "TABLE_A",
+      "type": 778,
+      "channel": 0,
+      "start": 16,
+      "stop": 22,
+      "tokenIndex": 3,
+      "line": 3,
+      "column": 5
+    },
+    {
+      "text": "<EOF>",
+      "type": -1,
+      "channel": 0,
+      "start": 24,
+      "stop": 23,
+      "tokenIndex": 4,
+      "line": 4,
+      "column": 0
+    }
+  ]
+}

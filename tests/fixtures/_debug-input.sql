@@ -1,0 +1,9 @@
+SELECT
+  *
+FROM TABLE_A, TABLE_B;
+
+SELECT
+  COL_A, /* comment */
+  COL_B
+FROM TABLE_A;
+
