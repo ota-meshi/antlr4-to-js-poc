@@ -1,0 +1,40 @@
+{
+  "name": "antlr4-to-js-poc",
+  "version": "0.0.0",
+  "description": "PoC that uses antlr4 to generate js from grammar file.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "scripts": {
+    "download-antlr-complete": "curl -O https://www.antlr.org/download/antlr-4.8-complete.jar",
+    "antlr": "java -Xmx500M -cp \"./antlr-4.8-complete.jar:$CLASSPATH\" org.antlr.v4.Tool -Dlanguage=JavaScript",
+    "build-antlr_psql:lexer": "npm run antlr -- \"./antlr_psql/antlr4/PostgreSQLLexer.g4\" -o \"./dist-parser\"",
+    "build-antlr_psql:parser": "npm run antlr -- \"./antlr_psql/antlr4/PostgreSQLParser.g4\" -o \"./dist-parser\" -lib \"./dist-parser/antlr_psql/antlr4\"",
+    "build-antlr_psql": "npm run build-antlr_psql:lexer && npm run build-antlr_psql:parser",
+    "test": "mocha \"tests/**/*.js\" --reporter dot --timeout 60000",
+    "test:debug": "mocha --inspect \"tests/**/*.js\" --reporter dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ota-meshi/antlr4-to-js-poc.git"
+  },
+  "author": "Yosuke Ota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ota-meshi/antlr4-to-js-poc/issues"
+  },
+  "homepage": "https://github.com/ota-meshi/antlr4-to-js-poc#readme",
+  "dependencies": {
+    "antlr4": "^4.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^8.1.1"
+  }
+}

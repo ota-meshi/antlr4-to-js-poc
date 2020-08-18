@@ -1,0 +1,3 @@
+[submodule "antlr_psql"]
+	path = antlr_psql
+	url = https://github.com/tshprecher/antlr_psql.git
